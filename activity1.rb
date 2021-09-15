@@ -16,7 +16,8 @@ contacts = {"John Cruz" => {email:"#{contact_data[0].first}", address:"#{contact
 
 print contacts
 
-current_age = 20
+puts "Enter your Age"
+current_age = gets.chomp.to_i
 years = [10, 20, 30, 40]
 puts "In #{years.first} years you will be:"
 puts years.first + current_age
