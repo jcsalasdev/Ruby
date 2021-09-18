@@ -6,7 +6,6 @@
 puts "input here:"
 num = gets.chomp.to_i
 
-
 def approx_sqrt(num)
     low = 1
     high = num
@@ -18,9 +17,11 @@ def approx_sqrt(num)
           high = mid
        end
     end
-    return low
+    return low 
 end
 sqrt = approx_sqrt(num) 
 puts sqrt
+
+
 
 

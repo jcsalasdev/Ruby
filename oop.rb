@@ -14,3 +14,4 @@ class User
   user = User.new("jcdev", "jcdev@example.com")
   user.run
   User.identify_yourself
+  puts "name: #{user.name} | email: #{user.email}"
