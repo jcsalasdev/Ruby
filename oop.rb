@@ -29,7 +29,7 @@ puts " "
     end
    
     def to_s
-      "First name: #{@first_name}, Last name: #{@last_name}, email address: #{@email}"
+      "First name: #{@first_name}, Last name: #{@last_name}, Email address: #{@email}"
     end
    
   end
