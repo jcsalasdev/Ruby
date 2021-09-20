@@ -16,12 +16,14 @@ class Cupcake < Confection
         super
          puts "Apply frosting at #{@cake}"
     end
-
-    cupCake = Cupcake.new("Cup Cake")
-    cupCake.baking
 end
 
 class BananaCake < Confection
-    bananaCake = BananaCake.new("Banana Cake")
-    bananaCake.baking
+ 
 end
+
+cupCake = Cupcake.new("Cup Cake")
+cupCake.baking
+
+bananaCake = BananaCake.new("Banana Cake")
+bananaCake.baking
