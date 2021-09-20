@@ -1,13 +1,14 @@
+#1
 array = [1, 2, 3 ,4 ,5 ,6 ,7 ,8 ,9 ,10]
 array.each { |num| puts num  } 
 
+#2
 h = {a:1, b:2, c:3, d:4}
-
 print "#{h[:b]} "
 h[:e] = "5"
 print h
 
-
+#3
 contact_data = [["john@email.com", "123 Main st.", "555-123-4567"],
             ["avion@email.com", "404 Not Found Dr.", "123-234-3454"]]
 
@@ -16,6 +17,7 @@ contacts = {"John Cruz" => {email:"#{contact_data[0].first}", address:"#{contact
 
 print contacts
 
+#4
 puts "Enter your Age"
 current_age = gets.chomp.to_i
 years = [10, 20, 30, 40]

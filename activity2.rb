@@ -5,6 +5,8 @@ if arr.each { |number| number == num }
     puts "#{num} is found"
 end
 
+25.times{print "-"}
+puts ""
 #2
 puts "please enter a number 1-100"
 numbers = gets.chop.to_i
@@ -19,19 +21,22 @@ else
    puts "The number scope of #{numbers} is above 100"
 end
 
+25.times{print "-"}
+puts ""
 #3
 while true
     puts "   Enter you name"
     name = gets.chomp
     25.times{print "-"}
     puts ""
-    puts "   type STOP to quit"
+    stopper = puts "   type STOP to quit"
     25.times{print "-"}
     puts ""
-    input = gets.chomp
-    break if input == "STOP"
+    break puts "seassion has been Stop" if name == "STOP"
 end
 
+25.times{print "-"}
+puts ""
 #4
 arr2 = [6, 3, 1, 8, 4, 2, 10, 65, 102]
 arr2.each do |number|

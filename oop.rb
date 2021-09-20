@@ -10,16 +10,17 @@ class User
     def self.identify_yourself
       puts "Hey I am method"
     end
-  end
-  user = User.new("jcdev", "jcdev@example.com")
-  user.run
-  User.identify_yourself
-  puts "name: #{user.name} | email: #{user.email}"
+end
+
+user = User.new("jcdev", "jcdev@example.com")
+user.run
+User.identify_yourself
+puts "name: #{user.name} | email: #{user.email}"
 
 35.times{print "-"}
 puts " "
 
-  class Employee
+class Employees
     attr_accessor :first_name, :last_name, :email
     def initialize(firstname, lastname, email)
       @first_name = firstname
@@ -31,10 +32,9 @@ puts " "
     def to_s
       "First name: #{@first_name}, Last name: #{@last_name}, Email address: #{@email}"
     end
+end
    
-  end
-   
-  jcdev = Employee.new("Jcdev", "Salas", "jcsalasdev@example.com" )
-  abdul = Employee.new("Abdul", "Magundacan", "Abdul@example.com" )
-  puts jcdev
-  puts abdul
+jcdev = Employee.new("Jcdev", "Salas", "jcsalasdev@example.com" )
+abdul = Employee.new("Abdul", "Magundacan", "Abdul@example.com" )
+puts jcdev
+puts abdul
