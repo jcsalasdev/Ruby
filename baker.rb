@@ -18,6 +18,7 @@ class Cupcake < Confection
     end
 
 end
+
 35.times{print "-"}
 puts " "
 
