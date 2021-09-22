@@ -19,7 +19,6 @@ class Cupcake < Confection
 end
 
 class BananaCake < Confection
- 
 end
 
 cupCake = Cupcake.new("Cup Cake")
