@@ -13,4 +13,8 @@ end
 
 def unique_in_order(iterable)
     (iterable.is_a?(String) ? iterable.chars : iterable).chunk { |x| x }.map(&:first)
-   end
+end
+
+def find_uniq(arr)
+    arr.uniq.find { |e| arr.count(e) == 1 }
+end
